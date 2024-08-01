@@ -26,7 +26,7 @@ public class Fibonacci {
     }
 
     public static void main(String[] args){
-        int n = 30;
+        int n = 8;
 
         System.out.println("elemento " + n + " resultado: " + encontrarElementoPD(n));
     }
