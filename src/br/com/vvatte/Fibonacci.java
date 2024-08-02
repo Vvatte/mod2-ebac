@@ -6,7 +6,7 @@ public class Fibonacci {
 
     private static final long[] elements = new long[MAX_ELEMENT];
 
-    public static long encontrarElementoPD(int n){
+    public static long encontrarElementoPD(int n){ //
         for(int i = 0; i < MAX_ELEMENT; i++ ){
             elements[i] = -1;
         }
@@ -25,6 +25,8 @@ public class Fibonacci {
             return elements[n];
     }
 
+    // O(n)  A programação dinamica é melhor pois a ideia é armazenar os resultados intermediários
+    // em um array para evitar recalcular os mesmos valores repetidamente.
     public static void main(String[] args){
         int n = 8;
 

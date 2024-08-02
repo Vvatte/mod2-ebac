@@ -11,7 +11,7 @@ public class FatorialRecursivo {
     }
 
     public static void main(String[] args){
-        int n = 50;
+        int n = 28;
 
         System.out.println("Fatorial de " + n + " é igual: " + buscarElemento(n));
     }
